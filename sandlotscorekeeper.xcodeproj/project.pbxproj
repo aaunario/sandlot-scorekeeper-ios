@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86396B431FB031BC00D80E4B /* LineupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86396B421FB031BC00D80E4B /* LineupViewController.swift */; };
+		863F33291FAC3FE600658B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F33281FAC3FE600658B99 /* AppDelegate.swift */; };
+		863F332B1FAC3FE600658B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F332A1FAC3FE600658B99 /* ViewController.swift */; };
+		863F33311FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 863F332F1FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodeld */; };
+		863F33331FAC3FE600658B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863F33321FAC3FE600658B99 /* Assets.xcassets */; };
+		863F33411FAC3FE600658B99 /* sandlotscorekeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F33401FAC3FE600658B99 /* sandlotscorekeeperTests.swift */; };
+		863F334C1FAC3FE600658B99 /* sandlotscorekeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F334B1FAC3FE600658B99 /* sandlotscorekeeperUITests.swift */; };
+		863F335A1FAC403A00658B99 /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 863F33591FAC403A00658B99 /* AppIcon */; };
+		863F335B1FAC403A00658B99 /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 863F33591FAC403A00658B99 /* AppIcon */; };
+		863F335C1FAC403A00658B99 /* AppIcon in Resources */ = {isa = PBXBuildFile; fileRef = 863F33591FAC403A00658B99 /* AppIcon */; };
+		86C3EE8D1FAFBF360033E6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3EE8C1FAFBF360033E6E2 /* Main.storyboard */; };
+		86C3EE911FAFDC7C0033E6E2 /* SavedGames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3EE901FAFDC7C0033E6E2 /* SavedGames.storyboard */; };
+		86C3EE931FAFDCFB0033E6E2 /* NewGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C3EE921FAFDCFB0033E6E2 /* NewGame.storyboard */; };
+		86C3EE971FAFE6710033E6E2 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C3EE961FAFE6710033E6E2 /* NewGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863F333D1FAC3FE600658B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863F331D1FAC3FE600658B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863F33241FAC3FE600658B99;
+			remoteInfo = sandlotscorekeeper;
+		};
+		863F33481FAC3FE600658B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863F331D1FAC3FE600658B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863F33241FAC3FE600658B99;
+			remoteInfo = sandlotscorekeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86396B421FB031BC00D80E4B /* LineupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineupViewController.swift; sourceTree = "<group>"; };
+		863F33251FAC3FE600658B99 /* sandlotscorekeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandlotscorekeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		863F33281FAC3FE600658B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		863F332A1FAC3FE600658B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		863F33301FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sandlotscorekeeper.xcdatamodel; sourceTree = "<group>"; };
+		863F33321FAC3FE600658B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863F33371FAC3FE600658B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863F333C1FAC3FE600658B99 /* sandlotscorekeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sandlotscorekeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863F33401FAC3FE600658B99 /* sandlotscorekeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandlotscorekeeperTests.swift; sourceTree = "<group>"; };
+		863F33421FAC3FE600658B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863F33471FAC3FE600658B99 /* sandlotscorekeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sandlotscorekeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863F334B1FAC3FE600658B99 /* sandlotscorekeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandlotscorekeeperUITests.swift; sourceTree = "<group>"; };
+		863F334D1FAC3FE700658B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863F33591FAC403A00658B99 /* AppIcon */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppIcon; sourceTree = "<group>"; };
+		86C3EE8C1FAFBF360033E6E2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		86C3EE901FAFDC7C0033E6E2 /* SavedGames.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SavedGames.storyboard; sourceTree = "<group>"; };
+		86C3EE921FAFDCFB0033E6E2 /* NewGame.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewGame.storyboard; sourceTree = "<group>"; };
+		86C3EE961FAFE6710033E6E2 /* NewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863F33221FAC3FE600658B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863F33391FAC3FE600658B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863F33441FAC3FE600658B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86396B411FB028B100D80E4B /* Lineup View */ = {
+			isa = PBXGroup;
+			children = (
+				86396B421FB031BC00D80E4B /* LineupViewController.swift */,
+			);
+			path = "Lineup View";
+			sourceTree = "<group>";
+		};
+		863F331C1FAC3FE600658B99 = {
+			isa = PBXGroup;
+			children = (
+				863F33271FAC3FE600658B99 /* sandlotscorekeeper */,
+				863F333F1FAC3FE600658B99 /* sandlotscorekeeperTests */,
+				863F334A1FAC3FE600658B99 /* sandlotscorekeeperUITests */,
+				863F33261FAC3FE600658B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863F33261FAC3FE600658B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863F33251FAC3FE600658B99 /* sandlotscorekeeper.app */,
+				863F333C1FAC3FE600658B99 /* sandlotscorekeeperTests.xctest */,
+				863F33471FAC3FE600658B99 /* sandlotscorekeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863F33271FAC3FE600658B99 /* sandlotscorekeeper */ = {
+			isa = PBXGroup;
+			children = (
+				86C3EE8C1FAFBF360033E6E2 /* Main.storyboard */,
+				86C3EE941FAFE5910033E6E2 /* New Game View */,
+				86C3EE951FAFE5A90033E6E2 /* Saved Games View */,
+				863F33281FAC3FE600658B99 /* AppDelegate.swift */,
+				863F332A1FAC3FE600658B99 /* ViewController.swift */,
+				863F33321FAC3FE600658B99 /* Assets.xcassets */,
+				863F33591FAC403A00658B99 /* AppIcon */,
+				863F33371FAC3FE600658B99 /* Info.plist */,
+				863F332F1FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodeld */,
+			);
+			path = sandlotscorekeeper;
+			sourceTree = "<group>";
+		};
+		863F333F1FAC3FE600658B99 /* sandlotscorekeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				863F33401FAC3FE600658B99 /* sandlotscorekeeperTests.swift */,
+				863F33421FAC3FE600658B99 /* Info.plist */,
+			);
+			path = sandlotscorekeeperTests;
+			sourceTree = "<group>";
+		};
+		863F334A1FAC3FE600658B99 /* sandlotscorekeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				863F334B1FAC3FE600658B99 /* sandlotscorekeeperUITests.swift */,
+				863F334D1FAC3FE700658B99 /* Info.plist */,
+			);
+			path = sandlotscorekeeperUITests;
+			sourceTree = "<group>";
+		};
+		86C3EE941FAFE5910033E6E2 /* New Game View */ = {
+			isa = PBXGroup;
+			children = (
+				86C3EE921FAFDCFB0033E6E2 /* NewGame.storyboard */,
+				86C3EE961FAFE6710033E6E2 /* NewGameViewController.swift */,
+				86396B411FB028B100D80E4B /* Lineup View */,
+			);
+			path = "New Game View";
+			sourceTree = "<group>";
+		};
+		86C3EE951FAFE5A90033E6E2 /* Saved Games View */ = {
+			isa = PBXGroup;
+			children = (
+				86C3EE901FAFDC7C0033E6E2 /* SavedGames.storyboard */,
+			);
+			path = "Saved Games View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863F33241FAC3FE600658B99 /* sandlotscorekeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863F33501FAC3FE700658B99 /* Build configuration list for PBXNativeTarget "sandlotscorekeeper" */;
+			buildPhases = (
+				863F33211FAC3FE600658B99 /* Sources */,
+				863F33221FAC3FE600658B99 /* Frameworks */,
+				863F33231FAC3FE600658B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sandlotscorekeeper;
+			productName = sandlotscorekeeper;
+			productReference = 863F33251FAC3FE600658B99 /* sandlotscorekeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		863F333B1FAC3FE600658B99 /* sandlotscorekeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863F33531FAC3FE700658B99 /* Build configuration list for PBXNativeTarget "sandlotscorekeeperTests" */;
+			buildPhases = (
+				863F33381FAC3FE600658B99 /* Sources */,
+				863F33391FAC3FE600658B99 /* Frameworks */,
+				863F333A1FAC3FE600658B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863F333E1FAC3FE600658B99 /* PBXTargetDependency */,
+			);
+			name = sandlotscorekeeperTests;
+			productName = sandlotscorekeeperTests;
+			productReference = 863F333C1FAC3FE600658B99 /* sandlotscorekeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		863F33461FAC3FE600658B99 /* sandlotscorekeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863F33561FAC3FE700658B99 /* Build configuration list for PBXNativeTarget "sandlotscorekeeperUITests" */;
+			buildPhases = (
+				863F33431FAC3FE600658B99 /* Sources */,
+				863F33441FAC3FE600658B99 /* Frameworks */,
+				863F33451FAC3FE600658B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863F33491FAC3FE600658B99 /* PBXTargetDependency */,
+			);
+			name = sandlotscorekeeperUITests;
+			productName = sandlotscorekeeperUITests;
+			productReference = 863F33471FAC3FE600658B99 /* sandlotscorekeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863F331D1FAC3FE600658B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ayrris Aunario";
+				TargetAttributes = {
+					863F33241FAC3FE600658B99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					863F333B1FAC3FE600658B99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 863F33241FAC3FE600658B99;
+					};
+					863F33461FAC3FE600658B99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 863F33241FAC3FE600658B99;
+					};
+				};
+			};
+			buildConfigurationList = 863F33201FAC3FE600658B99 /* Build configuration list for PBXProject "sandlotscorekeeper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863F331C1FAC3FE600658B99;
+			productRefGroup = 863F33261FAC3FE600658B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863F33241FAC3FE600658B99 /* sandlotscorekeeper */,
+				863F333B1FAC3FE600658B99 /* sandlotscorekeeperTests */,
+				863F33461FAC3FE600658B99 /* sandlotscorekeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863F33231FAC3FE600658B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3EE911FAFDC7C0033E6E2 /* SavedGames.storyboard in Resources */,
+				86C3EE8D1FAFBF360033E6E2 /* Main.storyboard in Resources */,
+				863F335A1FAC403A00658B99 /* AppIcon in Resources */,
+				86C3EE931FAFDCFB0033E6E2 /* NewGame.storyboard in Resources */,
+				863F33331FAC3FE600658B99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863F333A1FAC3FE600658B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863F335B1FAC403A00658B99 /* AppIcon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863F33451FAC3FE600658B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863F335C1FAC403A00658B99 /* AppIcon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863F33211FAC3FE600658B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863F33311FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodeld in Sources */,
+				86C3EE971FAFE6710033E6E2 /* NewGameViewController.swift in Sources */,
+				863F332B1FAC3FE600658B99 /* ViewController.swift in Sources */,
+				863F33291FAC3FE600658B99 /* AppDelegate.swift in Sources */,
+				86396B431FB031BC00D80E4B /* LineupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863F33381FAC3FE600658B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863F33411FAC3FE600658B99 /* sandlotscorekeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863F33431FAC3FE600658B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863F334C1FAC3FE600658B99 /* sandlotscorekeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		863F333E1FAC3FE600658B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863F33241FAC3FE600658B99 /* sandlotscorekeeper */;
+			targetProxy = 863F333D1FAC3FE600658B99 /* PBXContainerItemProxy */;
+		};
+		863F33491FAC3FE600658B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863F33241FAC3FE600658B99 /* sandlotscorekeeper */;
+			targetProxy = 863F33481FAC3FE600658B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		863F334E1FAC3FE700658B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		863F334F1FAC3FE700658B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863F33511FAC3FE700658B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99643FXFV3;
+				INFOPLIST_FILE = sandlotscorekeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaunario.sandlotscorekeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		863F33521FAC3FE700658B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99643FXFV3;
+				INFOPLIST_FILE = sandlotscorekeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaunario.sandlotscorekeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		863F33541FAC3FE700658B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99643FXFV3;
+				INFOPLIST_FILE = sandlotscorekeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaunario.sandlotscorekeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sandlotscorekeeper.app/sandlotscorekeeper";
+			};
+			name = Debug;
+		};
+		863F33551FAC3FE700658B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99643FXFV3;
+				INFOPLIST_FILE = sandlotscorekeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaunario.sandlotscorekeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sandlotscorekeeper.app/sandlotscorekeeper";
+			};
+			name = Release;
+		};
+		863F33571FAC3FE700658B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99643FXFV3;
+				INFOPLIST_FILE = sandlotscorekeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaunario.sandlotscorekeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sandlotscorekeeper;
+			};
+			name = Debug;
+		};
+		863F33581FAC3FE700658B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99643FXFV3;
+				INFOPLIST_FILE = sandlotscorekeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaunario.sandlotscorekeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sandlotscorekeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863F33201FAC3FE600658B99 /* Build configuration list for PBXProject "sandlotscorekeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863F334E1FAC3FE700658B99 /* Debug */,
+				863F334F1FAC3FE700658B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		863F33501FAC3FE700658B99 /* Build configuration list for PBXNativeTarget "sandlotscorekeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863F33511FAC3FE700658B99 /* Debug */,
+				863F33521FAC3FE700658B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		863F33531FAC3FE700658B99 /* Build configuration list for PBXNativeTarget "sandlotscorekeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863F33541FAC3FE700658B99 /* Debug */,
+				863F33551FAC3FE700658B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		863F33561FAC3FE700658B99 /* Build configuration list for PBXNativeTarget "sandlotscorekeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863F33571FAC3FE700658B99 /* Debug */,
+				863F33581FAC3FE700658B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		863F332F1FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				863F33301FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodel */,
+			);
+			currentVersion = 863F33301FAC3FE600658B99 /* sandlotscorekeeper.xcdatamodel */;
+			path = sandlotscorekeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 863F331D1FAC3FE600658B99 /* Project object */;
+}
