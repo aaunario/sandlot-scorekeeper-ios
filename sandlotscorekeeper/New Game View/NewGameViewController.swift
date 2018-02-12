@@ -2,7 +2,7 @@
 //  NewGameViewController.swift
 //  sandlotscorekeeper
 //
-//  Created by Ayrris (malakiangtitiko) Aunario on 11/5/17.
+//  Created by Ayrris Aunario on 11/5/17.
 //  Copyright © 2017 Ayrris Aunario. All rights reserved.
 //
 

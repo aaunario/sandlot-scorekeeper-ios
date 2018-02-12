@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  sandlotscorekeeper
 //
-//  Created by Ayrris (malakiangtitiko) Aunario on 11/3/17.
+//  Created by Ayrris Aunario on 11/3/17.
 //  Copyright © 2017 Ayrris Aunario. All rights reserved.
 //
 
